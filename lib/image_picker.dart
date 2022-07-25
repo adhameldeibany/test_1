@@ -38,7 +38,7 @@ class _MyHomePageState extends State<Camera> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: pickedImage,
-        tooltip: 'Increment',
+        tooltip: 'Increment ',
         child: const Icon(Icons.camera),
       ),
     );
