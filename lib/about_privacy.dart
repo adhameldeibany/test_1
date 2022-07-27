@@ -19,33 +19,14 @@ class AboutPrivacy extends StatelessWidget {
         ),
       ),
       body: Container(
-        color: Colors.yellow,
         width: size.width,
         child: Column(
-           mainAxisAlignment: MainAxisAlignment.end,
-           crossAxisAlignment: CrossAxisAlignment.start,
+           mainAxisAlignment: MainAxisAlignment.center,
+           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Column(
-              children: [
-                Container(
-                  color: Colors.red,
-                  child: Text('Developed by Adham Eldeibany',
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.purple),
-                  ),
-                ),
-
-                Container(
-                  color: Colors.red,
-                  child: Text('Developed by Adham Eldeibany',
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.purple),
-                  ),
-                ),
-              ],
-            ),
             Container(
-              color: Colors.red,
               child: Text('Developed by Adham Eldeibany',
-                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.purple),
+                style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold, color: Colors.purple),
 
               ),
             ),
